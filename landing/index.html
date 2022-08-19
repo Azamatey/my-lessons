@@ -1,0 +1,400 @@
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="timer/flipclock.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <meta charset="utf-8" />
+    
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>  
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="timer/flipclock.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.partners-slider').slick({
+  centerMode: true,
+  centerPadding: '0px',
+  slidesToShow: 5,
+         infinite: true,      
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+        });
+    </script>
+
+</head>
+
+<body>
+    
+    <div class="container-fluid top-line-back-fluid">
+       <div class="container">
+            <div class="row"> 
+                <div class="col-md-12 col-sm-6">
+                    
+                </div>
+           </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid main-top-fluid">
+        
+        
+        
+        
+        
+        <div class="container">
+            <div class="row">
+               <div class="col-md-12 col-sm-6">
+                   <div class="header-con">
+                       <div class="row">
+                           
+                           <div class="col-md-5 col-sm-6">
+                               <div class="text-of-timer">ДО НАЧАЛА EXPO 2017 ОСТАЛОСЬ</div>
+                               <div class="timer">
+                                   
+                                   
+                                   
+                                   <div class="clock" style="margin:2em;"></div>
+		
+		<script type="text/javascript">
+			var clock;
+
+			$(document).ready(function() {
+
+				// Grab the current date
+				var currentDate = new Date();
+
+				// Set some date in the future. In this case, it's always Jan 1
+				var futureDate  = new Date(currentDate.getFullYear() + 1, 0, 1);
+
+				// Calculate the difference in seconds between the future and current date
+				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+				// Instantiate a coutdown FlipClock
+				clock = $('.clock').FlipClock(diff, {
+					clockFace: 'DailyCounter',
+					countdown: true, language: "ru"
+				});
+			});
+		</script>
+                                   
+                                   
+                                   
+                                   
+                               </div>
+                           </div>
+                           <div class="col-md-7 col-sm-6">
+                              <div class="logo-expo">
+                                  <img src="images/logo-expo.png" />
+                               </div> 
+                           </div>
+                           
+                           
+                                   
+                           <div class="col-md-12 col-sm-6">
+                               <div class="text-order-tour">УСПЕЙ ЗАКАЗАТЬ ТУР НА EXPO 2016</div>
+                           </div>
+                                   
+                             
+                                                
+
+                           
+                           
+                           
+                           
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="container-fluid block-order-backg">
+        <div class="container block-order-con">
+            <div class="row">
+
+
+           
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid advantages-fluid">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <div class="advan-block">
+                    <div class="row">
+                        
+                        <div class="order-text text-center">
+                            
+                            ЗАКАЗАТЬ ТУР У НАС
+                               
+                        </div>
+                        
+                        
+                    <div class="andvan-con">
+                        <ul>
+                            <li>
+                                <ul>
+                                    <li class="safety"></li>
+                                    <li>безопасно</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="fast"></li>
+                                    <li>быстро</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li class="quality"></li>
+                                    <li>качественно</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+        <div class="container-fluid workscheme-fluid">
+        
+            
+            
+            
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <div class="scheme-block">
+                    <div class="row">
+                        
+                        <div class="scheme-text text-center">
+                            
+                            СХЕМА РАБОТЫ
+                               
+                        </div>
+                        
+                        
+                    <div class="scheme-con">
+                        <ul>
+                            <li>
+                                <ul>
+                                    <a href="#"><li class="order"></li></a>
+                                    <li><a href="#">Вы оставляете<br> нам заявку</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <a href="#"><li class="details"></li></a>
+                                    <li><a href="#">Мы вместе<br> согласуем детали</a></li>
+                                </ul>
+                            </li>
+                             <li>
+                                <ul>
+                                    <a href="#"><li class="payment"></li></a>
+                                    <li><a href="#">Вы вносите<br> предоплату</a></li>
+                                </ul>
+                            </li>
+                             <li>
+                                <ul>
+                                    <a href="#"><li class="documents"></li></a>
+                                    <li><a href="#">Мы готовим<br> документы</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <a href="#"><li class="onexpo"></li></a>
+                                    <li><a href="#">Вы уже<br> на Expo 2017</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="container-fluid support-fluid">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <div class="support-block">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <div class="supp-text text-center">
+                            
+                            НАС ПОДДЕРЖИВАЮТ
+                           
+                        </div>
+                        
+                        <div>
+                        <div class="partners-slider">
+                            
+                            <div>
+                                <a href="#"><div class="block"><img src="images/rixos.png"/></div></a>
+                            </div>
+                            <div>
+                                <a href="#"><div class="block"><img src="images/rixos.png"/></div></a>
+                            </div>
+                            <div>
+                                <a href="#"><div class="block"><img src="images/rixos.png"/></div></a>
+                            </div>
+                            <div>
+                                <a href="#"><div class="block"><img src="images/rixos.png"/></div></a>
+                            </div>
+                            <div>
+                                <a href="#"><div class="block"><img src="images/rixos.png"/></div></a>
+                            </div>
+                            <div>
+                                <a href="#"><div class="block"><img src="images/rixos.png"/></div></a>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        
+                        <div class="info-bottom">
+                            <p>Туристическая фирма Destinations работает в сфере туризма более 5 лет. За это время услугами воспользовалось 
+несколько тысяч туристов. Многие из них стали постоянными клиентами. С нами вы всегда будете в безопасности 
+и комфорте! Мы стремимся быть лучшими, и у нас это получается!</p>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div class="container-fluid order-form-fluid">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-6">
+                    <div class="order-form-con">
+                    <div class="row">
+                        
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-block">
+                            <div class="row">
+                            
+                                <ul>
+                                    <li class="text-above">Если возникли вопросы, укажите свои контакты и имя. Мы свяжемся с вами.</li>
+                                    <li><input type="text" class="form-control" placeholder="NAME"></li>
+                                    <li><input type="text" class="form-control" placeholder="PHONE"></li>
+                                    <li><div class="btn">Оставить заявку</div></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-6">
+                            <div class="expo-logo">
+                            <div class="row">
+                                <a href="#"><img src="images/logo-expo-bottom.png"/></a>
+                            </div>
+                        </div>
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-6">
+                            <div class="destinations-logo">
+                            <div class="row">
+                                <a href="#"><img src="images/destinations-logo-bottom.png"/></a>
+                            </div>
+                        </div>
+                        </div>
+                       
+                   
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ 
+    
+    
+    
+    <div class="container-fluid footer-fluid">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-12 col-sm-6">
+                    <div class="footer-con">
+                    <div class="row">
+                <div class="col-md-8 col-sm-6">
+                    <div class="text-center"><a href="#" class="website-address">www.astana-expo2017.com</a></div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="text-center"><a href="#" class="list-of-country">Список стран с безвизовым въездом в Казахстан</a></div>
+                </div>
+                </div>
+                </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
+ 
+    
+</body>
+
+</html>

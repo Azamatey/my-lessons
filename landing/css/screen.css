@@ -1,0 +1,441 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, ../sass/screen.scss */
+body {
+  background-color: #f6f6f4;
+}
+
+/* line 25, ../sass/screen.scss */
+.clrears {
+  clear: both;
+}
+
+/* line 28, ../sass/screen.scss */
+.container {
+  max-width: 1580px;
+}
+
+/* line 32, ../sass/screen.scss */
+.top-line-back-fluid {
+  background-color: #115896;
+  position: relative;
+  height: 55px;
+}
+/* line 37, ../sass/screen.scss */
+.top-line-back-fluid:after {
+  content: "";
+  background: url(../images/up-line-tri.png) center no-repeat;
+  height: 56px;
+  position: absolute;
+  bottom: -40px;
+  left: 0px;
+  width: 100%;
+}
+
+/* line 50, ../sass/screen.scss */
+.main-top-fluid {
+  background: url(../images/banner.png) center no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  margin-top: -2px;
+}
+/* line 57, ../sass/screen.scss */
+.main-top-fluid img {
+  max-width: 100%;
+}
+/* line 62, ../sass/screen.scss */
+.main-top-fluid .container .header-con {
+  margin-top: 50px;
+}
+/* line 64, ../sass/screen.scss */
+.main-top-fluid .container .header-con .text-of-timer {
+  color: #c0ff00;
+  font: 400 22.25px "PT Sans", sans-serif;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+/* line 75, ../sass/screen.scss */
+.main-top-fluid .container .header-con .logo-expo img {
+  max-width: 15%;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+/* line 84, ../sass/screen.scss */
+.main-top-fluid .container .header-con .text-order-tour {
+  color: #b9f602;
+  font: 400 40.25px "PT Sans", sans-serif;
+  display: inline-block;
+  background-color: rgba(13, 8, 73, 0.5);
+  background-size: cover;
+  margin-top: 200px;
+  margin-bottom: 90px;
+}
+
+/* line 101, ../sass/screen.scss */
+.advantages-fluid {
+  background: url(../images/order-tour.png) center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+/* line 108, ../sass/screen.scss */
+.advantages-fluid .advan-block .order-text {
+  margin-top: 20px;
+  margin-bottom: 95px;
+  color: #ffffff;
+  font: 700 50px "PT Sans", sans-serif;
+  text-align: center;
+  background: url(../images/line-through.png) center no-repeat;
+  text-shadow: 0px 6px 5.64px rgba(0, 0, 0, 0.5);
+}
+/* line 118, ../sass/screen.scss */
+.advantages-fluid .advan-block .andvan-con ul {
+  text-align: center;
+}
+/* line 120, ../sass/screen.scss */
+.advantages-fluid .advan-block .andvan-con ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 30px;
+}
+/* line 125, ../sass/screen.scss */
+.advantages-fluid .advan-block .andvan-con ul li ul li {
+  color: #ffffff;
+  font: 400 50px "PT Sans", sans-serif;
+  display: block;
+  margin: 40px 0;
+}
+/* line 131, ../sass/screen.scss */
+.advantages-fluid .advan-block .andvan-con ul li ul .safety {
+  background: url(../images/safety-icon.png) no-repeat;
+  width: 302px;
+  height: 302px;
+}
+/* line 136, ../sass/screen.scss */
+.advantages-fluid .advan-block .andvan-con ul li ul .fast {
+  background: url(../images/fast-icon.png) no-repeat;
+  width: 302px;
+  height: 302px;
+}
+/* line 141, ../sass/screen.scss */
+.advantages-fluid .advan-block .andvan-con ul li ul .quality {
+  background: url(../images/quality-icon.png) no-repeat;
+  width: 302px;
+  height: 302px;
+}
+
+/* line 155, ../sass/screen.scss */
+.workscheme-fluid {
+  background-color: #d8d8d8;
+  max-width: 100%;
+  position: relative;
+}
+/* line 161, ../sass/screen.scss */
+.workscheme-fluid:after {
+  content: "";
+  background: url(../images/tri.png) center no-repeat;
+  height: 56px;
+  position: absolute;
+  bottom: -43px;
+  left: 0px;
+  width: 100%;
+}
+/* line 175, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-text {
+  color: #000033;
+  font: 700 50px "PT Sans", sans-serif;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  text-shadow: 0px 6px 2.91px rgba(0, 0, 0, 0.2);
+}
+/* line 182, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con {
+  margin-bottom: 110px;
+}
+/* line 184, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul {
+  text-align: center;
+}
+/* line 186, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 191, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul li {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 198, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul li a {
+  text-decoration: none;
+  color: #000033;
+  font: 700 24px/24px "PT Sans", sans-serif;
+}
+/* line 208, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .order {
+  background: url(../images/order-icon.png) center no-repeat;
+  width: 190px;
+  height: 190px;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 213, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .order:hover {
+  background: url(../images/order-icon-active.png) center no-repeat;
+}
+/* line 218, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .details {
+  background: url(../images/details-icon.png) center no-repeat;
+  width: 190px;
+  height: 190px;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 223, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .details:hover {
+  background: url(../images/details-icon-active.png) center no-repeat;
+}
+/* line 228, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .payment {
+  background: url(../images/payment-icon.png) center no-repeat;
+  width: 190px;
+  height: 190px;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 233, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .payment:hover {
+  background: url(../images/payment-icon-active.png) center no-repeat;
+}
+/* line 238, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .documents {
+  background: url(../images/documents-icon.png) center no-repeat;
+  width: 190px;
+  height: 190px;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 243, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .documents:hover {
+  background: url(../images/documents-icon-active.png) center no-repeat;
+}
+/* line 248, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .onexpo {
+  background: url(../images/onexpo-icon.png) center no-repeat;
+  width: 190px;
+  height: 190px;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 253, ../sass/screen.scss */
+.workscheme-fluid .scheme-block .scheme-con ul li ul .onexpo:hover {
+  background: url(../images/onexpo-icon-active.png) center no-repeat;
+}
+
+/* line 267, ../sass/screen.scss */
+.support-fluid {
+  background: url(../images/last-back.png) center no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  margin-top: -3px;
+}
+/* line 274, ../sass/screen.scss */
+.support-fluid .support-block .supp-text {
+  margin: 70px 0;
+  color: #ffffff;
+  font: 700 50px/24px "PT Sans", sans-serif;
+  text-align: center;
+  background: url(../images/line-through.png) center no-repeat;
+  margin-bottom: 230px;
+  text-shadow: 0px 6px 5.64px rgba(0, 0, 0, 0.5);
+}
+/* line 284, ../sass/screen.scss */
+.support-fluid .support-block .partners-slider {
+  height: 170px;
+  margin-bottom: 160px;
+}
+/* line 287, ../sass/screen.scss */
+.support-fluid .support-block .partners-slider .block {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  max-width: 95%;
+  max-height: 100%;
+  height: 160px;
+  width: 226px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0px 8px 5.64px 0.36px rgba(0, 0, 0, 0.65);
+}
+/* line 297, ../sass/screen.scss */
+.support-fluid .support-block .partners-slider .block img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+/* line 321, ../sass/screen.scss */
+.support-fluid .support-block .info-bottom {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 140px;
+  box-shadow: 0px 6px 5.64px 0.36px rgba(0, 0, 0, 0.5);
+}
+/* line 329, ../sass/screen.scss */
+.support-fluid .support-block .info-bottom p {
+  color: #333333;
+  font: 700 20.5px "PT Sans", sans-serif;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+/* line 341, ../sass/screen.scss */
+.order-form-fluid .order-form-con {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+/* line 344, ../sass/screen.scss */
+.order-form-fluid .order-form-con .form-block {
+  background-color: #666666;
+  padding: 25px 35px 0px 35px;
+  box-shadow: 0px 14px 9.7px 0.3px rgba(0, 0, 0, 0.5);
+}
+/* line 349, ../sass/screen.scss */
+.order-form-fluid .order-form-con .form-block ul li {
+  margin-bottom: 25px;
+}
+/* line 352, ../sass/screen.scss */
+.order-form-fluid .order-form-con .form-block ul li .btn {
+  color: #ffffff;
+  font: 400 22px "PT Sans", sans-serif;
+  background-color: #ff6600;
+  box-shadow: 0px 6px 5.64px 0.36px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+/* line 362, ../sass/screen.scss */
+.order-form-fluid .order-form-con .form-block ul li input {
+  box-shadow: 0px 6px 5.64px 0.36px rgba(0, 0, 0, 0.5);
+  height: 50px;
+}
+/* line 367, ../sass/screen.scss */
+.order-form-fluid .order-form-con .form-block ul .text-above {
+  color: #ffffff;
+  font: 700 17px/24px "PT Sans", sans-serif;
+  text-align: center;
+}
+/* line 377, ../sass/screen.scss */
+.order-form-fluid .order-form-con .expo-logo img {
+  max-width: 100%;
+  margin-left: 40px;
+}
+/* line 384, ../sass/screen.scss */
+.order-form-fluid .order-form-con .destinations-logo img {
+  max-width: 100%;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+/* line 399, ../sass/screen.scss */
+.footer-fluid {
+  background-color: #115896;
+}
+/* line 401, ../sass/screen.scss */
+.footer-fluid .footer-con {
+  padding: 30px 0;
+}
+/* line 403, ../sass/screen.scss */
+.footer-fluid .footer-con .website-address {
+  color: #ffffff;
+  font: 400 23px "PT Sans", sans-serif;
+}
+/* line 407, ../sass/screen.scss */
+.footer-fluid .footer-con .list-of-country {
+  color: #ffffff;
+  font: 400 23px/20px "PT Sans", sans-serif;
+}
